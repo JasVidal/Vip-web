@@ -17,12 +17,20 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
+        background-color: #181F34;
         }
 
         .form{
         background-color: #ffffff;
-        width: 500px;
+        width: 400px;
         font-family: Poppins, sans-serif;
+        padding: 30px 20px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         }
 
         .form-cta{
@@ -30,7 +38,7 @@
         background-color: #ffffff;
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
         text-align: center;
         font-size: 14px;
@@ -39,28 +47,36 @@
         }
 
         .form-title{
-            width: 400px;
-            height: 100px;
+            width: 300px;
             display: flex;
             flex-direction: column;
-
+            font-size: 16px;
         }
 
         h1{
-            font-size: 30px;
+            font-size: 25px;
             font-weight: 700;
             color: #000000;
-            line-height: 2em;
+            padding: 10px 0;
+        }
+
+        .inputs-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 20px;
         }
 
         input{
-            width: 400px;
+            width: 300px;
             height: 50px;
             margin: 10px 0;
             padding: 10px 20px;
+            border: 1px solid #1A2137;
             border-radius: 30px;
-            border: none;
-            background-color: #F2F2F2;
+            background-color: #ffffff;
             font-size: 14px;
             font-family: Poppins, sans-serif;
             
@@ -69,11 +85,12 @@
         .form-btn{
             background-color: #FBBB1E;
             border: none;
-            padding: 18px 180px;
+            padding: 16px 125px;
             border-radius: 30px;
             font-family: Poppins, sans-serif;
             font-size: 14px;
             font-weight: 600;
+            margin: 20px;
         }
 
     </style>
@@ -91,7 +108,7 @@
                     <input type="email" placeholder="Email" required>
                     <input type="text" placeholder="Teléfono" required>
                     <input type="text" placeholder="Mensaje" required>
-                    <button class="form-btn">ENVIAR</button>
+                    <button class="form-btn">ENVIAR</button>               
                 </form>
             </div>
     </div>
